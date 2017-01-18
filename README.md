@@ -14,7 +14,7 @@ This is a collection of basic shell scripts ready for monitoring your Big Data c
  - check_ambari_service.sh (checks a given service state and alerts)
  - check_ambari_total_hosts.sh (checks the total number of hosts in the cluster)
  - check_ambari_version.sh (checks the cluster version)
- - ambari-commands.cfg (ambari comands for nagios)
+ - ambari-commands.cfg (Ambari comands for nagios)
  - services_icinga.cfg (Nagios service definitions)
  
 ## Dependencies
