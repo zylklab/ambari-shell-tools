@@ -16,7 +16,7 @@ This is a collection of basic shell scripts ready for monitoring your Big Data c
  - check_ambari_version.sh (checks the cluster version)
  - ambari-commands.cfg (Ambari comands for nagios)
  - services_icinga.cfg (Nagios service definitions)
- 
+
 ## Dependencies
 The main goal of these collection of shell scripts is the simplicity in comparison with other advanced modules in terms of dependencies. Just need few packages such as:
 - curl 
