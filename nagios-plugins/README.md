@@ -1,4 +1,4 @@
-# Nagios plugins
+# Nagios scripts for Ambari
 
 ## Scripts
 You may check the scripts directly:
@@ -13,6 +13,13 @@ WARNING: Service HDFS - STATE="STARTED", MAINTENANCE="OFF" * Alerts: CRITICAL=0,
 First, place shell scripts (*sh) in your Nagios scripts directory (usually /usr/lib/nagios/scripts) 
 
 In /etc/icinga/objects/ambari-commands.cfg, you have the command invocations to shell scripts for Nagios services.
+
+```
+define command {
+        command_name    check_ambari_service
+        command_line    /usr/lib/nagios/plugins/check_ambari_service.sh '$ARG1$' '$ARG2$' '$ARG3$' '$ARG4$' '$ARG5$' '$ARG6$' 
+}
+```
 
 In /etc/icinga/objects/hosts.cfg 
 
