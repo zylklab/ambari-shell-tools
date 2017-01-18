@@ -18,7 +18,7 @@ This is a collection of basic shell scripts ready for monitoring your Big Data c
  - services_icinga.cfg (Nagios service definitions)
  
 ## Dependencies
-This collection of shell scripts takes advantages of few depencencies in comparison with other advanced modules. Just:
+The main goal of these collection of shell scripts is the simplicity in comparison with other advanced modules in terms of dependencies. Just need few packages such as:
 - curl 
 - jshon (jshon parses, reads and creates JSON and it is designed to be as usable as possible from within the shell and replaces fragile adhoc parsers made from grep/sed/awk as well as heavyweight one-line parsers made from perl/python)
 - Other shell tools such as grep/sed/awk
