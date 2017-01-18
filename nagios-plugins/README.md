@@ -1,9 +1,5 @@
 # Nagios plugins
 
-## Scripts
-
-TODO
-
 ## Nagios Config
 
 First, place shell scripts (*sh) in your Nagios scripts directory (usually /usr/lib/nagios/scripts) 
