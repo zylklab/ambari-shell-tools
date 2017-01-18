@@ -10,7 +10,7 @@ WARNING: Service HDFS - STATE="STARTED", MAINTENANCE="OFF" * Alerts: CRITICAL=0,
 
 ## Nagios/Icinga configuration
 
-First, place shell scripts (*sh) in your Nagios scripts directory (usually /usr/lib/nagios/scripts) 
+First, place shell scripts (*sh) in your Nagios scripts directory (usually /usr/lib/nagios/plugins) 
 
 In /etc/icinga/objects/ambari-commands.cfg, you have the command invocations to shell scripts for Nagios services.
 
