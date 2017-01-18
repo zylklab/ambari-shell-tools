@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+#  Author: Cesar Capillas
+#
+#  https://github.com/CesarCapillas
+#
+#  License: see accompanying LICENSE file
+#
 
 SERVER=ambari.planetexpress.net
 PORT=8080
