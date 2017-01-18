@@ -1,5 +1,5 @@
 # ambari-shell-tools
-Curl examples for using Ambari REST API from command line
+Curl examples for using Ambari REST API from command line shell scripts
 
 ## Start/Stop/Check services
 
