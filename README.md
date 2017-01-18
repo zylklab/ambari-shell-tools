@@ -1,5 +1,5 @@
 # ambari-shell-tools
-Curl examples for using Ambari REST API from command line shell scripts
+Some basic curl examples for using Ambari REST API from command line shell scripts
 
 ## Cluster services
 This section is composed of two scripts for starting/stopping/checking services from command line via REST API in an Ambari cluster.
