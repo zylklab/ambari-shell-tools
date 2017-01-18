@@ -6,12 +6,16 @@ Curl examples for using Ambari REST API from command line
 ## Nagios/Icinga plugin
 
 ## Dependencies
-- jshon command
+- curl 
+- jshon (jshon parses, reads and creates JSON and it is designed to be as usable as possible from within the shell and replaces fragile adhoc parsers made from grep/sed/awk as well as heavyweight one-line parsers made from perl/python)
+- Other shell tools such as grep/sed/awk
 
 In Ubuntu 16.04 LTS:
 ```
-apt-get install jshon
+$ apt-get install curl jshon
 ```
+
+- http://kmkeen.com/jshon/
 
 ## Tested with
 - Ambari 2.2.2
