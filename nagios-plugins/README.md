@@ -1,6 +1,6 @@
 # Nagios plugins
 
-## Nagios Config
+## Nagios/Icinga configuration
 
 First, place shell scripts (*sh) in your Nagios scripts directory (usually /usr/lib/nagios/scripts) 
 
