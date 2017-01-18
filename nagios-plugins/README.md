@@ -41,4 +41,4 @@ $ sudo service icinga restart
 
 ## Screenshots
 
-TODO
+https://github.com/CesarCapillas/ambari-shell-tools/blob/master/nagios-plugins/icinga.png
