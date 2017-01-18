@@ -3,8 +3,8 @@ Curl examples for using Ambari REST API from command line shell scripts
 
 ## Cluster services
 This section is composed of two scripts for starting/stopping/checking services from command line via REST API in an Ambari cluster.
- - ambari-all.sh: Starts/Stops all cluster services in an ordered and defined sequence
- - ambari-service.sh: Starts/Stops/Checks a given cluster service
+ - ambari-all.sh [start|stop] all cluster services in an ordered and defined sequence
+ - ambari-service.sh [start|stop|check] a given cluster service
 
 ## Nagios/Icinga plugin
 This is a collection of basic shell scripts ready for monitoring your Big Data cluster via Ambari REST API in a Nagios / Icinga server. 
