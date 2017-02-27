@@ -7,12 +7,18 @@
 #  License: see accompanying LICENSE file
 #
 
-SERVER=ambari.planetexpress.net
-PORT=8080
-USERNAME=admin
-PASSWORD=robot1729
-CLUSTERNAME=bender
+###############LOAD PROPERTIES#######################
+PROPERTIESPATH=`pwd`
+PROPERTIESFILE=ambari.props
+source $PROPERTIESPATH/$PROPERTIESFILE
+#####################################################
+SERVER=$AMBARIHOST
+PORT=$AMBARIPORT
+USERNAME=$AMBARIADMINUSER
+PASSWORD=$AMBARIADMINPASS
+CLUSTERNAME=$CLUSTERNAME
 SERVICE=$1
+####################################################
 
 ENDPOINT="http://${SERVER}:${PORT}/api/v1/clusters/${CLUSTERNAME}/services/${SERVICE}"
 
